@@ -5,6 +5,8 @@
 
   <p>Chat with YouTube videos using transcript-grounded AI.</p>
 
+  <p><a href="https://ask-you-tube.streamlit.app/">Open the live app</a></p>
+
   <p>
     <img src="https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white" alt="Python 3.12">
     <img src="https://img.shields.io/badge/Streamlit-1.x-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit">
