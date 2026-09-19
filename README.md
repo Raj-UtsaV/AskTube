@@ -18,6 +18,8 @@ Ask questions about any YouTube video with an available transcript. AskTube
 retrieves relevant transcript sections and uses them to generate grounded answers
 and concise video summaries.
 
+📘 [Read the complete project documentation](PROJECT_DOCUMENTATION.md)
+
 ## ✨ Features
 
 - Accepts standard YouTube URLs, Shorts URLs, embed URLs, and video IDs

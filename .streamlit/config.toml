@@ -1,2 +1,21 @@
 [theme]
 base = "dark"
+primaryColor = "#ff3b30"
+backgroundColor = "#090b0d"
+secondaryBackgroundColor = "#15191e"
+textColor = "#f5f7fa"
+linkColor = "#28c7d9"
+borderColor = "#30363d"
+showWidgetBorder = true
+baseRadius = "small"
+buttonRadius = "small"
+font = "sans-serif"
+headingFont = "sans-serif"
+codeFont = "monospace"
+
+[server]
+headless = true
+runOnSave = true
+
+[browser]
+gatherUsageStats = false

@@ -1,4 +1,4 @@
-streamlit>=1.42,<2
+streamlit>=1.50,<2
 langchain>=0.3,<2
 langchain-community>=0.3,<2
 langchain-groq>=0.3,<2
