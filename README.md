@@ -74,7 +74,7 @@ AskTube/
 ├── assets/
 │   └── asktube-banner.png
 ├── app.py
-├── youtube_rag/
+├── src/
 │   ├── __init__.py
 │   ├── config.py
 │   ├── ui.py

@@ -1,7 +1,7 @@
 import streamlit as st
 from dotenv import load_dotenv
 
-from youtube_rag.ui import run
+from src.ui import run
 
 
 load_dotenv()

@@ -127,7 +127,7 @@ AskTube/
 |-- tests/
 |   |-- test_rag.py
 |   `-- test_youtube.py
-|-- youtube_rag/
+|-- src/
 |   |-- services/
 |   |   |-- rag.py
 |   |   `-- youtube.py

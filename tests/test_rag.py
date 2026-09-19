@@ -1,6 +1,6 @@
 import unittest
 
-from youtube_rag.services.rag import _split_text
+from src.services.rag import _split_text
 
 
 class SplitTextTests(unittest.TestCase):

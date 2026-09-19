@@ -1,12 +1,12 @@
 import streamlit as st
 
-from youtube_rag.config import load_settings
-from youtube_rag.services.rag import (
+from src.config import load_settings
+from src.services.rag import (
     answer_question,
     build_vector_store,
     summarize_video,
 )
-from youtube_rag.services.youtube import extract_video_id, get_transcript
+from src.services.youtube import extract_video_id, get_transcript
 
 SESSION_DEFAULTS = {
     "messages": [],

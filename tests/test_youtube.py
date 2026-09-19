@@ -2,7 +2,7 @@ import unittest
 from types import SimpleNamespace
 from unittest.mock import patch
 
-from youtube_rag.services.youtube import extract_video_id, get_transcript
+from src.services.youtube import extract_video_id, get_transcript
 
 
 class ExtractVideoIdTests(unittest.TestCase):
@@ -30,7 +30,7 @@ class GetTranscriptTests(unittest.TestCase):
         api = FlakyTranscriptApi(failures=1)
 
         with patch("youtube_transcript_api.YouTubeTranscriptApi", return_value=api):
-            with patch("youtube_rag.services.youtube.time.sleep") as sleep:
+            with patch("src.services.youtube.time.sleep") as sleep:
                 transcript = get_transcript("dQw4w9WgXcQ")
 
         self.assertEqual(transcript, "hello world")
@@ -41,7 +41,7 @@ class GetTranscriptTests(unittest.TestCase):
         api = FlakyTranscriptApi(failures=3)
 
         with patch("youtube_transcript_api.YouTubeTranscriptApi", return_value=api):
-            with patch("youtube_rag.services.youtube.time.sleep"):
+            with patch("src.services.youtube.time.sleep"):
                 with self.assertRaisesRegex(ValueError, "Could not reach YouTube"):
                     get_transcript("dQw4w9WgXcQ")
 
